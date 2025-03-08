@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 8rem;
+    height: 4rem;
+    background-color: $color-lightgray;
+    padding-top: 1.5rem;
+    
+    &__p{
+        
+        color: $color-gray-light;
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-align: center;
+
+    }
+
+}

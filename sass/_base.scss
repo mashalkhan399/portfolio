@@ -1,0 +1,37 @@
+$color-primary : #bfd6c4;
+$color-primary-dark:#3d744a;
+
+$color-gray-light : #fff;
+
+$color-lightgray-1 :#1e1d1ddb;
+
+$color-lightgray: #413e3edb;
+
+
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'shoaib';
+    src: url('../fonts/steph-font.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'shoaib';
+    src: url('../fonts/steph-font-bold.ttf');
+    font-weight: bold;
+}
+
+body{
+    font-family: 'shoaib';
+    box-sizing: border-box;
+    font-size: 62.5%;  // 10 / 16 = 62.5%
+}

@@ -1,0 +1,72 @@
+.heading-3{
+    font-size: 3rem;
+    
+}
+
+.btn{
+    border: none;
+    margin-bottom: 2rem;
+    
+    &::after{
+        content: "";
+        height: 4px;
+        background-color: $color-primary;
+        width: 6rem;
+        border-radius: 2px;
+        display: block;
+        
+    }
+
+
+}
+.project__section-heading{
+    z-index: 100;
+    font-size: 1.5rem;
+}
+.btn-1{
+    border: none;
+    margin-top: -1px;
+    
+    &::after{
+        content: "";
+        height: 1px;
+        background-color: black;
+        width: 5rem;
+        border-radius: 2px;
+        display: block;
+        
+    }
+}
+.heading-4{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.heading-5{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    color: $color-lightgray-1;
+    
+}
+.list-p{
+    font-size: 1rem;
+    color: $color-lightgray;
+   
+}
+.btn-2{
+    border: none;
+    margin-top: -6px;
+    
+    &::after{
+        content: "";
+        height: 1px;
+        background-color: black;
+        width: 3.5rem;
+        border-radius: 2px;
+        display: block;
+        
+    }
+}
