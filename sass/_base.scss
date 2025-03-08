@@ -30,6 +30,10 @@ $color-lightgray: #413e3edb;
     font-weight: bold;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'shoaib';
     box-sizing: border-box;

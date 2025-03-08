@@ -15,6 +15,9 @@
   src: url("../fonts/steph-font-bold.ttf");
   font-weight: bold; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: 'shoaib';
   box-sizing: border-box;
